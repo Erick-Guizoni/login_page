@@ -4,7 +4,7 @@
 }
 
 .App-header {
-  background-color: rgb(105, 174, 184);
+  background-image: url(./fundo_login.png);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
