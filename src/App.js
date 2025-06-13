@@ -1,20 +1,17 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Input from './components/ui/input/Input';
-import Text from './components/ui/text/Text';
-import Buttons from './components/ui/buttons/Buttons';
-
+import Header from './components/container/Header';
+import LoginPage from './pages/login_page/LoginPage';
+import Home from './pages/home_page/Home'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Text id="idLogin" text="LOGIN"/>
-        <Input/>
-        <Input/>
-        <Buttons text={"esqueceu a senha?"}/>
-        <Buttons className={"BtnEntrar"} text={"ENTRAR"}/>
-        
-      </header>
+      <Header/>
+      <Routes>
+      <Route path='/' element={<LoginPage/>}/>
+      <Route path='/home' element={<Home/>}/>
+      </Routes>
     </div>
   );
 }
