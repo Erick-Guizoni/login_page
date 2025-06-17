@@ -1,6 +1,17 @@
 .Buttons{
-    border-radius: 10vw;
+    width: 20vw;
+    height: 2vw;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1vw;
+    background: rgba(255, 0, 0, 0.644);
+    cursor: pointer;
+
+   &:hover{
+        transform: scale(1.1);
+    }
 }
+    
 

@@ -1,8 +1,9 @@
 import styles from './input.module.scss'
 
-function Input(){
+function Input({text}){
     return<>
-    <input id="input" className={styles.Input}></input>
+    <label className={styles.TextLabel}>{text}</label>
+    <input className={styles.Input}></input>
     </>
 }
 

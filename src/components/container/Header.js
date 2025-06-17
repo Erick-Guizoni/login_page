@@ -4,9 +4,9 @@ import styles from './Header.module.scss'
 function Header() {
   return <>
     <header className={styles.Header}>
-      <div className={styles.TextHeader}>
+      {/* <div className={styles.TextHeader}>
         <h1>REACT EU PERDI!!!</h1>
-      </div>
+      </div> */}
       <div className={styles.Btns}>
         <div className={styles.Btn}>
           <Link className={styles.BtnHeader} to={'/home'}>HOME</Link>

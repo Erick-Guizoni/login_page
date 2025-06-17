@@ -32,7 +32,23 @@
  z-index: 0;
 }
 
-.imgCaveira{
+.imgGuerreiro{
+  width: 95%;
+  height: 95%;
+}
+
+.BtnEntrar{
+  height: 20vh;
+  width: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BtnEsqSenha{
   width: 50%;
-  height: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-style: oblique ;
 }
