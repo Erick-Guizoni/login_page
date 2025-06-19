@@ -1,0 +1,44 @@
+.FormContainer{
+    width: 30vw;
+    height: 50vh;
+
+    position: relative;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    border-radius: 1vw;
+    box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1);
+
+    color: red;
+
+    .Blur {
+        position: absolute;
+        height: 50vh;
+        width: 30vw;
+        border-radius: 1vw;
+        background-color: #33333360;
+        backdrop-filter: blur(5px);
+        z-index: -1;
+    }
+
+    .Title {
+        width: 80%;
+        font-size: 2.5vw;
+        margin: 0;
+        text-align: start;
+    }
+
+    .Form{
+        width: 70%;
+        height: 60%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

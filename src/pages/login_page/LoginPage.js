@@ -1,5 +1,4 @@
 import Input from '../../components/ui/input/Input';
-import Text from '../../components/ui/text/Text';
 import Buttons from '../../components/ui/buttons/Buttons';
 import img from './../../assets/img/guerreiroSangue.gif';
 import styles from './login_page.module.scss';
